@@ -1,0 +1,67 @@
+.openai, .baby{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.openai-input {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.openai-button {
+  margin-bottom: 30px;
+}
+
+.openai-image{
+  width: 512px;
+}
+
+.baby-input {
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  border: solid #F2B441;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.baby-radio{
+  border: #F2B441 solid;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.baby-favorite-number{
+  display: inline;
+}
+
+.baby-button{
+  border: #F2B441 solid;
+  width: 40%;
+  border-radius: 10px;
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+h3{
+  margin: 0;
+  color: antiquewhite;
+}
+
+.baby-radio-span{
+  padding-right: 15px;
+}
+
+
+
