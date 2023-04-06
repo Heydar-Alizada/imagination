@@ -64,4 +64,17 @@ h3{
 }
 
 
+.bucket{
+  text-align: center;
+}
+
+.bucket-button{
+  width: 30%;
+  height: 50px;
+  font-size: 24px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background-color: #F2B441;
+}
 
