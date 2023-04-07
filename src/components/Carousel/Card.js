@@ -4,7 +4,6 @@ import './carousel.css'
 export default function Card(props) {
     return(
        <div 
-            backgroundImage={props.image}
             className="card-wrapper" 
             title={props.path}
             onClick={props.onClick}>

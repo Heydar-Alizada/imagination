@@ -28,7 +28,7 @@
 
 .card-image{
     width: 100%;
-    border: #F2B441 solid;
+    border: #F2B441 solid; 
     filter: blur(2px);
     filter: brightness(30%);
 

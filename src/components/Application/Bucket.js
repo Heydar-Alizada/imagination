@@ -26,7 +26,7 @@ export default function Bucket(){
     }
 
     return(
-        <div className="bucket">  
+        <div className="bucket container">  
             <button className="bucket-button" onClick={generateBucketList}>Generate Bucket List</button>
             {loading?<h2>Loading...</h2>:<h1 className="bucket-h1">{bucketList}</h1>}
         </div>

@@ -31,7 +31,7 @@ function OpenAI() {
   };
 
   return (
-    <div className="openai">
+    <div className="openai container">
       <h1 className="openai-h1">Generate Image with OpenAI</h1>
       <form className="openai-form" onSubmit={generateImage}>
         <input

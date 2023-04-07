@@ -1,6 +1,5 @@
 import "./App.css";
 import LargeCarousel from "./components/Carousel/LargeCarousel";
-import background from './image/background.jpg'
 import { Route, Routes, NavLink } from "react-router-dom";
 import Error404 from './pages/Error404'
 import './components/NavBar/navBar.css'

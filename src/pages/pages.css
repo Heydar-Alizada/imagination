@@ -1,12 +1,16 @@
 .contact, .about{
-    text-align: center;
-    height: 100%;
+    text-align: center !important;
+    height: 100% !important;
  
 }
 
 h1{
     margin: 0;
-    text-align: center;
+    text-align: center !important;
+}
+
+h1, h2, h3, p{
+    color: white !important;
 }
 
 

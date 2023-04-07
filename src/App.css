@@ -2,7 +2,9 @@ body {
   background-color: #F2B441 !important;
   color: white;
   backdrop-filter: brightness(15%);
+
 }
+
 
 .wrapper{
   height: 100vh;

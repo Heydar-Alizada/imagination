@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Configuration, OpenAIApi } from "openai";
-
 import "./index.css";
 import axios from "axios";
 import { useSelector } from "react-redux";
@@ -19,29 +17,6 @@ export default function Baby(){
     const [generatedName, setGeneratedName] = useState('');
 
 
-    // const [urlData, setUrlData] = useState();
-
-    // const configuration = new Configuration({
-    //     apiKey: process.env.REACT_APP_API_KEY,
-    //   });
-    // const openai = new OpenAIApi(configuration);
-
-    // useEffect(() => {
-    //     const generateImage = async (e) => {
-    //         e.preventDefault(e);
-    //         setLoading(true);
-    //         const imageParameters = {
-    //         prompt: 'BABY',
-    //         n: 1,
-    //         size: "512x512",
-    //         };
-        
-        
-    //         const response = await openai.createImage(imageParameters);
-    //         console.log(response.data.data[0].url);
-    //     }
-    // }, [])
-
 
     const generateBabyName = (e) => {
         e.preventDefault();
@@ -56,7 +31,7 @@ export default function Baby(){
 
 
     return(
-        <div className="baby">
+        <div className="baby container">
             <h1>Choose name for your baby</h1>
             <form className="baby-form" onSubmit={generateBabyName}>
                 <input  className="baby-input" 
