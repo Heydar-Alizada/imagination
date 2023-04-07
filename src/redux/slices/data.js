@@ -32,7 +32,7 @@ export const data = createSlice({
           },
           {
               image: celebrity,
-              title: "Which celebrity are you (in other universe)",
+              title: "Which celebrity are you in parallel universe?",
               path: 'celebrity',
           },
           {
