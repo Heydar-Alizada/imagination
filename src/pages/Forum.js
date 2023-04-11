@@ -13,7 +13,7 @@ export default function Forum(){
                 text: 'This is amazing'
             },
             {
-                name: 'Karaline',
+                name: 'Coraline',
                 time: '13.3.2023 - 10:11',
                 text: 'So cool, I like that'
             }        
