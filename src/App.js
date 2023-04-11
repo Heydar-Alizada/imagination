@@ -31,6 +31,7 @@ function App() {
                 <NavLink to='/' ><li className='navBar-link'>Home</li></NavLink>
                 <NavLink to='/about'><li className='navBar-link'>About</li></NavLink>
                 <NavLink to='/contact'><li className='navBar-link'>Contacts</li></NavLink>
+                <a href='#forum'><li className='navBar-link'>Comments</li></a>
             </ul>
       </div>
 
@@ -53,7 +54,7 @@ function App() {
           </Routes>
       </div>
 
-      <div className="forum">
+      <div className="forum" id="forum">
           <Forum />
       </div>
 

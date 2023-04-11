@@ -47,6 +47,12 @@ img{
 
 .forum{
   margin-bottom: 150px;
+  height: 90vh;
+}
+
+.forum h1{
+  background-color: black !important;
+  padding: 10px;
 }
 
 .forum textarea{

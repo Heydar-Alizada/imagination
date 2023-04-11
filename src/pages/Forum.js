@@ -41,6 +41,7 @@ export default function Forum(){
 
     return(
         <div>
+            <h1>COMMENTS</h1>
             <label>Your name:  </label>
           <br/>
           <input className="forum-name" value={name} onChange={(e)=>{setName(e.target.value)}}/>
