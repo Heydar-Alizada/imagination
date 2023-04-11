@@ -15,6 +15,7 @@ export default function Facts(){
         axios
         .get(`https://api.api-ninjas.com/v1/facts?limit=1`, apiKey)
         .then(response => {
+            console.log(response)
             setFact(response.data[0].fact)
             setLoading(false)
         })}

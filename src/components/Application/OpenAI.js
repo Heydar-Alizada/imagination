@@ -44,7 +44,7 @@ function OpenAI() {
         <button className="openai-button">Generate</button>
         <br />
         {loading ? (
-          <p className="openai-p">Loading...</p>
+          <p className="openai-p"><img className="openai-robot" src="https://thumbs.gfycat.com/HarmlessGlisteningCarp-max-1mb.gif" alt="robot"/></p>
         ) : (
           urlData && <img loading="lazy" className="openai-image" src={urlData} alt="image" />
         )}

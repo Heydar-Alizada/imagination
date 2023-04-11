@@ -72,7 +72,12 @@ export default function Baby(){
                 </div>
                 <button className="baby-button">Generate</button>
 
-                {loading ? <h2>Loading...</h2>
+                {loading ? 
+                
+                <div>
+                    <h2>Loading...</h2>
+                    <img className="loading" src="https://media.tenor.com/kLXX8JkWlUIAAAAj/naenaebaby-baby.gif" alt="loading"/>
+                </div>
                 :
                 (!generatedName ? <h2>Choose all parametr and click Generate button</h2>
                 :

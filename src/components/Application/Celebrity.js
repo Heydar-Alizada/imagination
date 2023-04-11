@@ -57,7 +57,7 @@ export default function Celebrity(){
 
 
 
-        {loading?<h1 className="celebrity-loading-h1">Loading...</h1>:(generatedCelebrity
+        {loading?<h1 className="celebrity-loading-h1"><img className="loading" src="https://freight.cargo.site/t/original/i/0263e32ee6c4f0fc2f4183b7e9318f8890208f8502f5a6c7e1d2b882e3e06f26/travolta.gif" alt="loading"/></h1>:(generatedCelebrity
         ?
         (<div>
            <h1 className="celebrity-ready-h1 ">{generatedCelebrity.name}</h1>

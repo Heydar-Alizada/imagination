@@ -26,11 +26,6 @@ export const data = createSlice({
             path: 'bucket',
           },
           {
-            image: car,
-            title: "Your car in paralel universe",
-            path: 'car',
-          },
-          {
               image: celebrity,
               title: "Which celebrity are you in parallel universe?",
               path: 'celebrity',
