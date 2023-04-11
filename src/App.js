@@ -8,9 +8,7 @@ import Contact from './pages/Contact'
 import About from "./pages/About";
 import Baby from "./components/Application/Baby";
 import Bucket from "./components/Application/Bucket";
-import Car from "./components/Application/Car";
 import Celebrity from "./components/Application/Celebrity";
-import Cocktails from "./components/Application/Cocktails";
 import Facts from "./components/Application/Facts";
 import Hobby from "./components/Application/Hobby";
 import Marvel from "./components/Application/Marvel";
@@ -41,9 +39,7 @@ function App() {
         <Route path = '/contact' element = {<Contact/>}/>
         <Route path = '/baby' element = {<Baby/>}/>
         <Route path = '/bucket' element = {<Bucket/>}/>
-        <Route path = '/car' element = {<Car/>}/>
         <Route path = '/celebrity' element = {<Celebrity/>}/>
-        <Route path = '/cocktails' element = {<Cocktails/>}/>
         <Route path = '/facts' element = {<Facts/>}/>
         <Route path = '/hobby' element = {<Hobby/>}/>
         <Route path = '/marvel' element = {<Marvel/>}/>

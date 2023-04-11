@@ -41,14 +41,14 @@ export default function Facts(){
                 </div>
 
             {loading ? <h1><p>Loading...</p><img className="loading" src="https://media4.giphy.com/media/2UvBsxeB6nlONSJYoh/giphy.gif" alt="loading"/></h1> 
-            : 
+            : (marvel?
             <div>
                 <h1>{marvel?.name}</h1>
                 <a href={`https://www.google.com/search?q=marvel+${marvel?.name}`} target="_blank">Click for more information</a>
                 <br/>
                 <img className="marvel-image" src={marvel?.thumbnail.path + '.'  + marvel?.thumbnail.extension} alt="image"/>
                 
-            </div>}
+            </div> : null)}
         </div>
     )
 }

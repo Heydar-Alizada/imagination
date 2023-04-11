@@ -31,11 +31,6 @@ export const data = createSlice({
               path: 'celebrity',
           },
           {
-              image: cocktail,
-              title: "Cocktails you should taste",
-              path: 'cocktails',
-          },
-          {
               image: fact,
               title: "Facts you should know",
               path: 'facts',
