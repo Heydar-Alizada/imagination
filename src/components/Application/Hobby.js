@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 export default function Hobby(){
     const apiKey = useSelector(state => state.data.apiKey);
     const [hobby, setHobby] = useState();
-    const [category, setCategory] = useState()
+    const [category, setCategory] = useState('general')
     const [loading, setLoading] = useState(false);
 
     const generateHobby = (e) => {

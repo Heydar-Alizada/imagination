@@ -14,6 +14,7 @@ import Hobby from "./components/Application/Hobby";
 import Marvel from "./components/Application/Marvel";
 import StarWars from "./components/Application/StarWars";
 import OpenAI from './components/Application/OpenAI'
+import Forum from "./pages/Forum";
 
 
 
@@ -33,20 +34,32 @@ function App() {
             </ul>
       </div>
 
-      <Routes>
-        <Route path = '/' element = {<LargeCarousel/>}/>
-        <Route path = '/about' element = {<About/>}/>
-        <Route path = '/contact' element = {<Contact/>}/>
-        <Route path = '/baby' element = {<Baby/>}/>
-        <Route path = '/bucket' element = {<Bucket/>}/>
-        <Route path = '/celebrity' element = {<Celebrity/>}/>
-        <Route path = '/facts' element = {<Facts/>}/>
-        <Route path = '/hobby' element = {<Hobby/>}/>
-        <Route path = '/marvel' element = {<Marvel/>}/>
-        <Route path = '/starwars' element = {<StarWars/>}/>
-        <Route path = '/openai' element = {<OpenAI/>}/>
-        <Route path = '*' element = {<Error404/>}/>
-      </Routes>
+      <div className="wrap-container">
+
+        <div className="router">
+          <Routes>
+            <Route path = '/' element = {<LargeCarousel/>}/>
+            <Route path = '/about' element = {<About/>}/>
+            <Route path = '/contact' element = {<Contact/>}/>
+            <Route path = '/baby' element = {<Baby/>}/>
+            <Route path = '/bucket' element = {<Bucket/>}/>
+            <Route path = '/celebrity' element = {<Celebrity/>}/>
+            <Route path = '/facts' element = {<Facts/>}/>
+            <Route path = '/hobby' element = {<Hobby/>}/>
+            <Route path = '/marvel' element = {<Marvel/>}/>
+            <Route path = '/starwars' element = {<StarWars/>}/>
+            <Route path = '/openai' element = {<OpenAI/>}/>
+            <Route path = '*' element = {<Error404/>}/>
+          </Routes>
+      </div>
+
+      <div className="forum">
+          <Forum />
+      </div>
+
+
+
+    </div>
     </div>
   );
 }
