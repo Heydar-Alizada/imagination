@@ -64,6 +64,8 @@ export default function Forum(){
             :
             null
         }
+
+        <p className="copyright">© Copyright 2013, Imagination LLC. All rights reserved </p>
           
         
         </div>
